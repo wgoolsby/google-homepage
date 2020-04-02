@@ -65,7 +65,14 @@ nav ul li a:hover {
 	border: 1px solid #4285f4;
 	border-radius: 2px;
 	background-color: #4285f4;
-	background: -webkit-linear-gradient(top, #4387fd, #4683ea);
+	background: linear-gradient(top, #4387fd, #4683ea);
+}
+
+#top-nav .sign-in:hover {
+	background-color: #3470d6;
+	border-color: #3470d6;
+	text-decoration: none;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 #bottom-nav ul li a {
@@ -142,6 +149,6 @@ form {
 	color: #000;
 	background-color: linear-gradient(top, #f8f8f8, #f1f1f1);
 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-	border: 1px solid #c6c6c6;
+	border-color: #c6c6c6;
 	cursor: pointer;
 }
